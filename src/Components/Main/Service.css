@@ -1,0 +1,64 @@
+.service-content-container {
+    background-image: url(../../Assets/services-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 85vw;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.grid-item {
+    background: #FFFFFF;
+    border: 1px solid rgba(239, 239, 239, 0.6);
+    box-shadow: 0px 30px 30px rgba(99, 122, 166, 0.1);
+    border-radius: 8px;
+    padding: 25px 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.grid-item:nth-child(3), .grid-item:nth-child(4) {
+    visibility: hidden
+}
+
+.grid-item-image-container img {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+
+}
+
+.grid-item-content {
+    margin: 10px 45px;
+}
+
+.grid-item-content p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 178.69%;
+    text-transform: uppercase;
+    color: #2C3847;
+    text-align: center;
+}
+
+.grid-item-content span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #2C3847;
+    display: flex;
+}

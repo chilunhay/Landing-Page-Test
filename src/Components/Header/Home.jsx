@@ -9,7 +9,7 @@ const Home = () => {
       <Navbar />
       <div className="home-banner-container">
         <div className="home-text-section">
-          <h1 className="primary-heading">Find & Hire Expert Freelancers</h1>
+          <div className="primary-heading">Find & Hire Expert Freelancers</div>
           <div className="primary-text">
             Work with the best freelance talent from around the world on our secure flexible and cost-effective
             platform.

@@ -43,8 +43,10 @@ const OurFeatures = () => {
             <div className="our-boxes-img-container">
               <img src={data.image} alt={data.title} />
             </div>
-            <h2>{data.title}</h2>
-            <p>{data.text}</p>
+            <div className="our-info-content-container">
+              <p>{data.title}</p>
+              <span>{data.text}</span>
+            </div>
           </div>
         ))}
       </div>
