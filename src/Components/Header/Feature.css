@@ -1,14 +1,12 @@
 .feature-container {
-    margin-top: 22rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 30px 0;
 }
 
 .feature-content {
-    padding: 30px 60px;
-    width: 85vw;
+    padding: 30px 85px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .feature-info {

@@ -1,8 +1,6 @@
 import React from 'react';
-import BannerBackground from '../../Assets/header-image.png';
 import BannerImage from '../../Assets/banner-image.png';
 import Navbar from './Navbar';
-import Feature from './Feature';
 import './Home.css';
 
 const Home = () => {
@@ -10,9 +8,6 @@ const Home = () => {
     <div className="home-container">
       <Navbar />
       <div className="home-banner-container">
-        <div className="home-bannerImage-container">
-          <img src={BannerBackground} alt="Background" />
-        </div>
         <div className="home-text-section">
           <h1 className="primary-heading">Find & Hire Expert Freelancers</h1>
           <div className="primary-text">
@@ -28,7 +23,6 @@ const Home = () => {
           <img src={BannerImage} alt="BannerImage" />
         </div>
       </div>
-      <Feature />
     </div>
   );
 };
