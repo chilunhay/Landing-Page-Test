@@ -2,6 +2,7 @@ import React from 'react';
 import BannerBackground from '../../Assets/header-image.png';
 import BannerImage from '../../Assets/banner-image.png';
 import Navbar from './Navbar';
+import Feature from './Feature';
 import './Home.css';
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
           <img src={BannerImage} alt="" />
         </div>
       </div>
+      <Feature />
     </div>
   );
 };

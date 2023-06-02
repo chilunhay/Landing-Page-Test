@@ -1,4 +1,4 @@
-.feature-section-container {
+.feature-container {
     margin-top: 22rem;
     position: relative;
     display: flex;
@@ -12,7 +12,7 @@
     display: flex;
 }
 
-.feature-section-info {
+.feature-info {
     padding: 3rem 2rem;
 }
 

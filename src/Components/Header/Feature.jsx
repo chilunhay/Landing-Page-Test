@@ -23,10 +23,10 @@ const Feature = () => {
     },
   ];
   return (
-    <div className="feature-section-container">
+    <div className="feature-container">
       <div className="feature-content">
         {featureData.map((data, key) => (
-          <div className="feature-section-info" key={key}>
+          <div className="feature-info" key={key}>
             <div className="info-boxes-img-container">
               <img src={data.image} alt={data.title} />
             </div>
