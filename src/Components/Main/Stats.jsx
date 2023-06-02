@@ -22,7 +22,7 @@ const Stats = () => {
       <div className="stats-content">
         {statsData.map((data, key) => (
           <div className="stats-info" key={key}>
-            <div className="stats-percent">{data.title}</div>
+            <div className="stats-title">{data.title}</div>
             <div className="stats-text">{data.text}</div>
           </div>
         ))}
