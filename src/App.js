@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/Footer/Footer';
 import Feature from './Components/Header/Feature';
 import Home from './Components/Header/Home';
 import OurFeatures from './Components/Main/OurFeatures';
@@ -19,6 +20,7 @@ function App() {
       <OurProject />
       <Testimonials />
       <Team />
+      <Footer />
     </div>
   );
 }

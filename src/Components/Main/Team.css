@@ -3,7 +3,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 900px;
+    padding-top: 30px;
 }
 
 .team-content-container {
@@ -12,7 +13,6 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
-    height: 100%;
 }
 
 .team-info-boxes {
