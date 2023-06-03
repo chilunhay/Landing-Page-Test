@@ -17,7 +17,7 @@ const Stats = () => {
     },
   ];
   return (
-    <div className="stats-wrapper">
+    <div className="stats-container">
       <div className="stats-heading">Journey of our Success</div>
       <div className="stats-content">
         {statsData.map((data, key) => (
