@@ -88,7 +88,7 @@ const Testimonials = () => {
             {items.map((item, key) => {
               return (
                 <div className="carousel-item" key={key}>
-                  <div className="carousel-item-box">
+                  <div className="carousel-item-boxes">
                     <img className="carousel-img" src={item.image} alt="test" />
                     <div className="carousel-item-title">{item.title}</div>
                     <div className="carousel-item-sub-title">{item.subTitle}</div>
