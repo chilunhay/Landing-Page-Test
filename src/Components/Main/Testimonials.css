@@ -1,0 +1,142 @@
+.test-info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+.test-info-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.test-info-button-prev {
+    position: absolute;
+    left: 260px;
+    z-index: 2;
+}
+
+.test-info-button-next {
+    position: absolute;
+    right: 260px;
+    z-index: 2;
+}
+
+.button-arrow-prev {
+    border: 1px solid #5F5F5F;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button-arrow-next {
+    border: 1px solid #5F5F5F;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.carousel-item-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carousel-item-text {
+    font-size: 18px;
+    margin: 40px 0;
+    padding: 0 20px;
+    white-space: normal;
+    color: #9598A0;
+    text-align: center;
+}
+
+.carousel-img {
+    height: 106px;
+    width: 106px;
+    margin-bottom: 10px;
+}
+
+.carousel-item-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #171C2C;
+    padding: 5px 0;
+}
+
+.carousel-item-sub-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #9598A0;
+    padding: 5px 0;
+}
+
+/* final stage */
+
+.carousel-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.indicator-buttons {
+    border: none;
+    cursor: pointer;
+}
+
+.indicators>button {
+    margin: 5px;
+    background: none;
+}
+
+.indicator-symbol {
+    color: #D3E5FF;
+}
+
+.indicator-symbol-active {
+    color: #0056D6;
+}
