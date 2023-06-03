@@ -1,0 +1,64 @@
+.our-project-container {
+    padding-bottom: 90px;
+}
+
+.our-project-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.project-button-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+.project-button {
+    border: 1px solid #5F5F5F;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.project-section {
+    /* width: 85vw;
+    margin: 0 auto; */
+    margin-left: 106.8px;
+}
+
+.project-info {
+    position: relative;
+    width: 340px;
+}
+
+.project-info img {
+    width: 340px;
+    height: 256px;
+}
+
+.project-info-text {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.project-info-text p, .project-info-text span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: black;
+    overflow: hidden;
+}

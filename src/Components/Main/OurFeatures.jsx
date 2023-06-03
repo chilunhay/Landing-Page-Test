@@ -30,27 +30,27 @@ const OurFeatures = () => {
     },
   ];
   return (
-    <div className="our-container">
-      <div className="our-text-container">
+    <div className="our-features-container">
+      <div className="our-features-text-container">
         <HeadText
           head="Our Features"
           text="Unleash your creativety with a visual collaboration plattorm that enables effective ideation"
         />
       </div>
-      <div className="our-content-container">
+      <div className="our-features-content-container">
         {ourFeaturesData.map((data, key) => (
-          <div className="our-info" key={key}>
-            <div className="our-boxes-img-container">
+          <div className="our-features-info" key={key}>
+            <div className="our-features-boxes-img-container">
               <img src={data.image} alt={data.title} />
             </div>
-            <div className="our-info-content-container">
+            <div className="our-features-info-content-container">
               <p>{data.title}</p>
               <span>{data.text}</span>
             </div>
           </div>
         ))}
       </div>
-      <div className="our-learn-more-link">
+      <div className="our-features-learn-more-link">
         <a href="/">Learn more</a>
         <span>{` >`}</span>
       </div>

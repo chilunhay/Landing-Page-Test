@@ -62,7 +62,7 @@
     padding-right: 60px;
 }
 
-.contact-button {
+.button-section .contact-button {
     padding: 0.8rem 2.6rem;
     background-color: #0056D6;
     outline: none;
@@ -76,11 +76,11 @@
     margin-right: 30px;
 }
 
-.contact-button:hover {
+.button-section .contact-button:hover {
     background-color: rgb(19, 157, 216);
 }
 
-.learn-button {
+.button-section .learn-button {
     padding: 0.8rem 2.6rem;
     outline: none;
     background-color: transparent;
@@ -93,7 +93,7 @@
     transition: 0.2s;
 }
 
-.learn-button:hover {
+.button-section .learn-button:hover {
     background-color: rgb(19, 157, 216);
     color: white;
 }

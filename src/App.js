@@ -2,6 +2,7 @@ import './App.css';
 import Feature from './Components/Header/Feature';
 import Home from './Components/Header/Home';
 import OurFeatures from './Components/Main/OurFeatures';
+import OurProject from './Components/Main/OurProject';
 import Service from './Components/Main/Service';
 import Stats from './Components/Main/Stats';
 
@@ -13,6 +14,7 @@ function App() {
       <Stats />
       <OurFeatures />
       <Service />
+      <OurProject />
     </div>
   );
 }
